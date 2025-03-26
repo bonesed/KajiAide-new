@@ -1,0 +1,82 @@
+{
+    "short_name": "カジエイド",
+    "name": "カジエイド - AI家事コンシェルジュ",
+    "icons": [
+      {
+        "src": "/favicon.ico",
+        "sizes": "64x64 32x32 24x24 16x16",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "/icon-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/icon-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      },
+      {
+        "src": "/icon-maskable-192.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/icon-maskable-512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "maskable"
+      }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#007bff",
+    "background_color": "#ffffff",
+    "orientation": "portrait",
+    "description": "AIがあなたの生活スタイルに合わせた最適な家事提案を行うコンシェルジュアプリ",
+    "categories": ["lifestyle", "productivity", "utilities"],
+    "shortcuts": [
+      {
+        "name": "新しいタスク",
+        "short_name": "タスク追加",
+        "description": "新しい家事タスクを追加",
+        "url": "/?action=add-task",
+        "icons": [{ "src": "/shortcut-add-task.png", "sizes": "96x96" }]
+      },
+      {
+        "name": "AI提案を見る",
+        "short_name": "AI提案",
+        "description": "AIからの提案を確認",
+        "url": "/?tab=ai-tips",
+        "icons": [{ "src": "/shortcut-ai-tips.png", "sizes": "96x96" }]
+      }
+    ],
+    "screenshots": [
+      {
+        "src": "/screenshot1.png",
+        "type": "image/png",
+        "sizes": "540x1200",
+        "platform": "narrow"
+      },
+      {
+        "src": "/screenshot2.png",
+        "type": "image/png",
+        "sizes": "720x1280",
+        "platform": "narrow"
+      }
+    ],
+    "related_applications": [
+      {
+        "platform": "play",
+        "url": "https://play.google.com/store/apps/details?id=com.kajiaid.app",
+        "id": "com.kajiaid.app"
+      },
+      {
+        "platform": "itunes",
+        "url": "https://apps.apple.com/app/kajiaid/id123456789"
+      }
+    ],
+    "prefer_related_applications": false
+  }
